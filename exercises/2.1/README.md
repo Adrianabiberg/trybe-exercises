@@ -1,1 +1,1 @@
-Esses são os exercísios que estou desenvolvendo na Trybe:
+Esses são os exercícios que estou desenvolvendo na Trybe:
