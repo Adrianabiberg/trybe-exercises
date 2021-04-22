@@ -15,3 +15,11 @@ console.log(a/b);
 
 // Módulo
 console.log(a%b);
+
+// Retorne o maior de dois números
+
+if (a > b) {
+    console.log(a);
+} else {
+    console.log(b);
+}
