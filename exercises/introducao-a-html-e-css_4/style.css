@@ -1,0 +1,17 @@
+
+.nav{
+    background-color:rgb(163, 236, 212);
+    padding: 10px;
+}
+
+.nav li, .nav a {
+    list-style: none;
+    display: inline;
+    font-size: 17px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(2, 2, 59);
+}
