@@ -40,3 +40,5 @@ if (c > d && c > e) {
 }else {
     console.log(e);
 }
+
+// dado um valor definido numa variável, retorne "positive" se esse valor for positivo, "negative" se for negativo e "zero" caso contrário.
