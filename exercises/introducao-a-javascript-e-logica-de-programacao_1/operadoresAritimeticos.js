@@ -27,7 +27,7 @@ if (z > y) {
     console.log(z);
 } else {
     console.log(y);
-}
+};
 
 console.log("=================================================");
 
@@ -43,7 +43,7 @@ if (c > d && c > e) {
     console.log(d);
 }else {
     console.log(e);
-}
+};
 
 console.log("=================================================");
 
@@ -57,7 +57,7 @@ if (f > 0) {
     console.log("negative");
 } else {
     console.log("zero");
-}
+};
 
 console.log("=================================================");
 
@@ -73,7 +73,8 @@ if (anguloA + anguloB + anguloC === 180){
     console.log("erro. Valores inválidos, verique se o valor é positivo");
 } else {
     console.log("false");
-}
+};
+
 console.log("=================================================");
 
 // Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
@@ -99,7 +100,7 @@ if ( pLowerCase === "dama") {
     console.log("O Peão se movimenta apenas para frente, uma casa por vez e ataca somente na diagonal.");
 } else {
     console.log("Movimento inválido");
-}
+};
 
 console.log("=================================================");
 
@@ -128,6 +129,6 @@ if (nota >= 90 && nota <=100) {
     console.log("nota: F");
 } else {
     console.log("Valor inválido.");
-}
+};
 
 console.log("=================================================");
