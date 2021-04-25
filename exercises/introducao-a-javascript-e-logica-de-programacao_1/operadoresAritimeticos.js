@@ -163,3 +163,24 @@ if (num4%2 === 1 || num5%2 === 1 || num6%2 === 1) {
 
 console.log("=================================================");
 
+// Escreva um programa que se inicie com dois valores em duas variáveis diferentes: o custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
+// Atente que, sobre o custo do produto, incide um imposto de 20%.
+// Seu programa também deve emitir uma mensagem de erro e encerrar caso algum dos seus valores de entrada seja menor que zero.
+// O lucro de um produto é o resultado da subtração do valor de venda pelo custo do mesmo, sendo que o imposto de 20% também faz parte do valor de custo.
+// valorCustoTotal = valorCusto + impostoSobreOCusto
+// lucro = valorVenda - valorCustoTotal (lucro de um produto)
+
+let custo = 89;
+let venda = 176;
+
+let custoTotal = custo + (custo * 0.20);
+let lucro = venda - custoTotal;
+let lucroPorMil = lucro * 1000;
+
+if (custo < 0 || venda < 0) {
+    console.log("Valor de custo e/ou venda é inválido.")
+} else {
+    console.log("O lucro por mil é de: R$" + lucroPorMil);
+};
+
+console.log("=================================================");
