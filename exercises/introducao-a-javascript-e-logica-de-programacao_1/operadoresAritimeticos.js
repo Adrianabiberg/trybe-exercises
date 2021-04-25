@@ -16,6 +16,8 @@ console.log(a/b);
 // Módulo
 console.log(a%b);
 
+console.log("=================================================");
+
 // Retorne o maior de dois números
 
 let z = 4;
@@ -26,6 +28,8 @@ if (z > y) {
 } else {
     console.log(y);
 }
+
+console.log("=================================================");
 
 // Retorne o maior de três números. Defina no começo do programa três variáveis com os valores que serão comparados.
 
@@ -41,6 +45,8 @@ if (c > d && c > e) {
     console.log(e);
 }
 
+console.log("=================================================");
+
 // dado um valor definido numa variável, retorne "positive" se esse valor for positivo, "negative" se for negativo e "zero" caso contrário.
 
 let f = -7;
@@ -52,6 +58,8 @@ if (f > 0) {
 } else {
     console.log("zero");
 }
+
+console.log("=================================================");
 
 // defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false , caso contrário. Se algum ângulo for inválido o programa deve retornar uma mensagem de erro.
 
@@ -66,3 +74,31 @@ if (anguloA + anguloB + anguloC === 180){
 } else {
     console.log("false");
 }
+console.log("=================================================");
+
+// Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
+// Como desafio, faça o programa funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais.
+// Como dica, você pode pesquisar uma função que faz uma string ficar com todas as letras minúsculas (lower case) .
+// Se a peça passada for inválida, o programa deve retornar uma mensagem de erro.
+// Exemplo: bishop (bispo) -> diagonals (diagonais).
+
+let nomeDaPeca = "Cavalo";
+let pLowerCase = nomeDaPeca.toLocaleLowerCase();
+
+if ( pLowerCase === "dama") {
+    console.log("A Dama se move em todas as direções no tabuleiro, com exceção do movimento em L.");
+} else if (pLowerCase === "bispo") {
+    console.log("O Bispo se move nas diagonais");
+} else if (pLowerCase === "rei") {
+    console.log("O Rei se move para qualquer direção, apenas uma casa por jogada.");
+} else if (pLowerCase === "cavalo") {
+    console.log("O Cavalo se movimenta em L.");
+}else if (pLowerCase === "torre") {
+    console.log("A Torre se move sempre em linha reta.");
+}else if (pLowerCase === "peão") {
+    console.log("O Peão se movimenta apenas para frente, uma casa por vez e ataca somente na diagonal.");
+} else {
+    console.log("Movimento inválido");
+}
+
+console.log("=================================================");
