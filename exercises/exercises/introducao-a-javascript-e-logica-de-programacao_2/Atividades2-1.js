@@ -77,9 +77,16 @@ let arrayMagico = [];
 
 for (let criador = 1; criador <= 25; criador +=1) {
     arrayMagico.push(criador);
-}
+};
 
 console.log(arrayMagico);
 
 // Questão resolvida com ajuda do colega Rodrigo Facury.
+
+console.log("=============================================");
+
+for (let verificador = 0; verificador < arrayMagico.length; verificador +=1) {
+    console.log(arrayMagico[verificador] / 2);
+};
+
 console.log("=============================================");
