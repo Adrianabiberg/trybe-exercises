@@ -20,3 +20,11 @@ let mediaAritmetica = somaTotal / numbers.length;
 console.log(mediaAritmetica);
 
 console.log("=============================================");
+
+if (mediaAritmetica > 20) {
+    console.log("valor maior que 20");
+} else {
+    console.log("valor menor ou igual a 20");
+};
+
+console.log("=============================================");
