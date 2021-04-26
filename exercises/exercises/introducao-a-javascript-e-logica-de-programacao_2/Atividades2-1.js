@@ -15,3 +15,8 @@ for (let soma = 0; soma < numbers.length; soma +=1) {
 console.log(somaTotal);
 
 console.log("=============================================");
+
+let mediaAritmetica = somaTotal / numbers.length;
+console.log(mediaAritmetica);
+
+console.log("=============================================");
