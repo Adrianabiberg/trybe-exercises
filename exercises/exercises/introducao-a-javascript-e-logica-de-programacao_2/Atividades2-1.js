@@ -42,3 +42,13 @@ for (let maiorNumero = 0; maiorNumero < numbers.length; maiorNumero += 1) {
 console.log(resultado);
 
 console.log("=============================================");
+
+let impar = [];
+
+for (index = 0; index < numbers.length; index += 1) {
+    if (numbers[index] % 2 === 1) {
+        impar += 1;
+    };
+};
+
+console.log(`No array tem ${impar.length} números ímpares`);
