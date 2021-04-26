@@ -11,7 +11,7 @@ for (let coluna = 0; coluna < n; coluna += 1) {
 
 console.log("=========================================");
 
-let x = 6;
+let x = 5;
 let asterisco2 = "";
 
 for (let tri = 1; tri <= x; tri += 1) {
@@ -20,3 +20,4 @@ for (let tri = 1; tri <= x; tri += 1) {
 };
 
 console.log("=========================================");
+
