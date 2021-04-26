@@ -58,3 +58,18 @@ if (impar.length === 0) {
 }
 
 console.log("=============================================");
+
+let resultadomenorNum = 100000000;
+
+for (let menorNumero = 0; menorNumero < numbers.length; menorNumero += 1) {
+    for (let comparNumero = 0; comparNumero < numbers.length; comparNumero += 1) {
+        if (numbers[menorNumero] < numbers[comparNumero] && numbers[menorNumero] < resultadomenorNum) {
+            resultadomenorNum = numbers[menorNumero];
+        };
+    };
+};
+
+console.log(resultadomenorNum);
+
+console.log("=============================================");
+
