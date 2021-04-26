@@ -28,3 +28,17 @@ if (mediaAritmetica > 20) {
 };
 
 console.log("=============================================");
+
+let resultado = 0;
+
+for (let maiorNumero = 0; maiorNumero < numbers.length; maiorNumero += 1) {
+    for (let comparaNumero = 0; comparaNumero < numbers.length; comparaNumero += 1) {
+        if (numbers[maiorNumero] > numbers[comparaNumero] && numbers[maiorNumero] > resultado) {
+            resultado = numbers[maiorNumero];
+        };
+    };
+};
+
+console.log(resultado);
+
+console.log("=============================================");
