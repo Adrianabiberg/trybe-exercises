@@ -51,4 +51,10 @@ for (index = 0; index < numbers.length; index += 1) {
     };
 };
 
-console.log(`No array tem ${impar.length} números ímpares`);
+if (impar.length === 0) {
+    console.log("nenhum valor ímpar encontrado");
+} else {
+    console.log(`O array possui ${impar.length} números ímpares`);
+}
+
+console.log("=============================================");
