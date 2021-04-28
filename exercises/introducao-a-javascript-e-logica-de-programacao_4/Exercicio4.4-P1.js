@@ -37,10 +37,12 @@ let info2 = {
   console.log(info.origem + ' e ' + info2.origem);
   console.log(info.nota + ' e ' + info2.nota);
 
-  if (info.recorrente === info2.recorrente) {
+  if (info.recorrente && info2.recorrente === 'Sim') {
     console.log('Ambos recorrentes');
+  } else if (info.recorrente && info2.recorrente === 'Não') {
+    console.log('Ambos não são recorrentes');
   } else {
-      ('Um é recorrente, mas o outro não');
+    console.log('Um é recorrente e o outro não')
   };
-
+  
   console.log('       ');
