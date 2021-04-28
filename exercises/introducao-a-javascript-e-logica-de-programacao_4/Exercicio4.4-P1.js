@@ -19,3 +19,9 @@ let info = {
   };
 
   console.log('       ');
+
+  for (let index in info) {
+    console.log(info[index]);
+};
+
+console.log('       ');
