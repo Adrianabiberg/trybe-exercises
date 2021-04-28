@@ -6,6 +6,16 @@ let info = {
 
   console.log('Bem-vinda, ' + info.personagem + '!');
 
+  console.log('       ');
+
   info.recorrente = 'Sim';
   
   console.log(info);
+
+  console.log('       ');
+
+  for (let index in info) {
+      console.log(index);
+  };
+
+  console.log('       ');
