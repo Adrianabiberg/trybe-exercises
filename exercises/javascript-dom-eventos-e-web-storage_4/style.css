@@ -1,7 +1,9 @@
+html {
+    background-color: rgb(208, 218, 197);
+}
 
 body {
-    font-family: 'Courier New', Courier, monospace;
-    margin: 0% 20%;
+    margin: 0% 15%;
     text-align: justify;
 }
 
@@ -9,3 +11,29 @@ h1 {
     text-align: center;
 }
 
+#personalize {
+    margin: 7%;
+}
+
+label {
+    font-weight: bold;
+    color: rgb(37, 31, 31);
+}
+
+#stylesInput {
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+footer {
+    padding: 2%;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(223, 106, 60);
+}
+
+input {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin-top: 1%;
+}
