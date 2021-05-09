@@ -1,6 +1,7 @@
 html {
   width: 100%;
   background-image:linear-gradient(to top, #cad6d5, #B4DBD8);
+  color: rgb(29, 29, 34);;
 }
 
 body {
@@ -78,5 +79,25 @@ a:hover {
 
 img {
   box-shadow: 0.1em -0.1em 0.2em #a3a8a8;
-  margin-left: 50px;
+  margin-left: 2%;
+}
+
+#imagem1 {
+  float: left;
+  margin-right: 20px;
+}
+
+.fato1 {
+  margin-top: 45%;
+  margin-bottom: 12%;
+}
+
+.fato2 {
+  margin-top: 50%;
+}
+
+.p1 {
+  text-align: justify;
+  margin-left: 20%;
+  margin-top: 5%;
 }
