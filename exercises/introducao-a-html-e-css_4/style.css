@@ -1,7 +1,7 @@
 html {
   width: 100%;
   background-image:linear-gradient(to top, #cad6d5, #B4DBD8);
-  color: rgb(29, 29, 34);;
+  color: #3c4947;
 }
 
 body {
@@ -29,6 +29,7 @@ h3 {
 p {
   margin-left: 2%;
   font-size: 18px;
+  text-align: justify;
 }
 
 .nav{
@@ -47,7 +48,7 @@ p {
   text-transform: uppercase;
   font-weight: bold;
   font-family: sans-serif;
-  color: rgb(29, 29, 34);
+  color: #4B5C5A;
   text-decoration: none;
 }
 
@@ -63,7 +64,6 @@ table {
   margin-right: 5%;
   border-bottom: 1px solid;
 }
-
 
 #more {
   clear: both;
@@ -93,11 +93,23 @@ img {
 }
 
 .fato2 {
-  margin-top: 50%;
+  margin-bottom: 10%;
+}
+
+#imagem2 {
+  float:right;
 }
 
 .p1 {
   text-align: justify;
   margin-left: 20%;
   margin-top: 5%;
+}
+
+footer {
+  color: #515C47;
+}
+
+.referencias li {
+  font-size: 18px;
 }
