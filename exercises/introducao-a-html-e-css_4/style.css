@@ -1,17 +1,137 @@
+html {
+  width: 100%;
+  background-image:linear-gradient(to top, #cad6d5, #b4dbd8);
+}
+
+body {
+  margin: 1% 13%;
+  color: #3c4947;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-left: 1%;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: oblique;
+  text-align: center;
+}
+
+h3 {
+  margin-left: 2%;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+p {
+  margin-left: 2%;
+  font-size: 18px;
+  text-align: justify;
+}
 
 .nav{
-    background-color:rgb(163, 236, 212);
-    padding: 10px;
+  text-align: center;
+  padding: 1px;
+  border-top: 1px solid #3c4947;
+  border-bottom: 1px solid #3c4947;
+  text-shadow: 0.1em 0.1em 0.2em #9bbdba;
 }
 
 .nav li, .nav a {
-    list-style: none;
-    display: inline;
-    font-size: 17px;
-    padding: 10px;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: sans-serif;
-    text-decoration: none;
-    color: rgb(2, 2, 59);
+  list-style: none;
+  display: inline;
+  font-size: 17px;
+  padding: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #4B5C5A;
+  text-decoration: none;
+}
+
+.whatis {
+  float: left;
+  margin-right: 40%;
+  text-align: justify;
+}
+
+table {
+  float: right;
+  margin-top: -26%;
+  margin-right: 5%;
+  border-bottom: 1px solid;
+}
+
+#more {
+  clear: both;
+}
+
+.curiosities {
+  clear: both;
+}
+
+img {
+  box-shadow: 0.1em -0.1em 0.2em #a3a8a8;
+  margin-left: 2%;
+}
+
+#imagem1 {
+  float: left;
+  margin-right: 20px;
+}
+
+.fato1 {
+  margin-top: 40%;
+  margin-bottom: 12%;
+}
+
+.fato2 {
+  margin-bottom: 8%;
+}
+
+#imagem2 {
+  float:right;
+}
+
+.p1 {
+  text-align: justify;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.referencias li, .referencias a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #4B5C5A;
+  padding: 3px;
+}
+
+footer, footer a {
+  color: #4B5C5A;
+  padding: 5px;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+aside {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+a:hover {
+  color: #000000;
+}
+
+img:active {
+  width: 600px;
+}
+
+p::selection {
+  color: white;
+  background: rgba(255, 0, 0, 0.678);
 }
