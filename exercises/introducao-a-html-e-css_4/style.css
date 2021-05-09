@@ -1,11 +1,11 @@
 html {
   width: 100%;
-  background-image:linear-gradient(to top, #cad6d5, #B4DBD8);
-  color: #3c4947;
+  background-image:linear-gradient(to top, #cad6d5, #b4dbd8);
 }
 
 body {
   margin: 1% 13%;
+  color: #3c4947;
 }
 
 h1 {
@@ -35,9 +35,9 @@ p {
 .nav{
   text-align: center;
   padding: 1px;
-  border-top: 1px solid rgb(29, 29, 34);
-  border-bottom: 1px solid rgb(29, 29, 34);
-  text-shadow: 0.1em 0.1em 0.5em rgb(255, 253, 253);
+  border-top: 1px solid #3c4947;
+  border-bottom: 1px solid #3c4947;
+  text-shadow: 0.1em 0.1em 0.2em #9bbdba;
 }
 
 .nav li, .nav a {
@@ -73,10 +73,6 @@ table {
   clear: both;
 }
 
-a:hover {
-  color: rgb(0, 0, 0);
-}
-
 img {
   box-shadow: 0.1em -0.1em 0.2em #a3a8a8;
   margin-left: 2%;
@@ -88,12 +84,12 @@ img {
 }
 
 .fato1 {
-  margin-top: 45%;
+  margin-top: 40%;
   margin-bottom: 12%;
 }
 
 .fato2 {
-  margin-bottom: 10%;
+  margin-bottom: 8%;
 }
 
 #imagem2 {
@@ -106,10 +102,31 @@ img {
   margin-top: 5%;
 }
 
-footer {
-  color: #515C47;
+.referencias li, .referencias a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #4B5C5A;
+  padding: 3px;
 }
 
-.referencias li {
-  font-size: 18px;
+footer, footer a {
+  color: #4B5C5A;
+  padding: 5px;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+aside {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+a:hover {
+  color: #000000;
+}
+
+img:active {
+  width: 600px;
 }
