@@ -130,3 +130,8 @@ a:hover {
 img:active {
   width: 600px;
 }
+
+p::selection {
+  color: white;
+  background: rgba(255, 0, 0, 0.678);
+}
