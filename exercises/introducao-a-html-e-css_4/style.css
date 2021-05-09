@@ -1,45 +1,82 @@
+html {
+  width: 100%;
+  background-image:linear-gradient(to top, #cad6d5, #B4DBD8);
+}
+
 body {
-    margin: 1% 13%;
+  margin: 1% 13%;
+}
+
+h1 {
+  text-align: center;
 }
 
 h2 {
-    margin-left: 1%;
+  margin-left: 1%;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: oblique;
+  text-align: center;
+}
+
+h3 {
+  margin-left: 2%;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+p {
+  margin-left: 2%;
+  font-size: 18px;
 }
 
 .nav{
-    background-color:rgb(163, 236, 212);
-    padding: 10px;
+  text-align: center;
+  padding: 1px;
+  border-top: 1px solid rgb(29, 29, 34);
+  border-bottom: 1px solid rgb(29, 29, 34);
+  text-shadow: 0.1em 0.1em 0.5em rgb(255, 253, 253);
 }
 
 .nav li, .nav a {
-    list-style: none;
-    display: inline;
-    font-size: 17px;
-    padding: 10px;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: sans-serif;
-    text-decoration: none;
-    color: rgb(2, 2, 59);
+  list-style: none;
+  display: inline;
+  font-size: 17px;
+  padding: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: rgb(29, 29, 34);
+  text-decoration: none;
 }
 
 .whatis {
-    float: left;
-    margin-right: 40%;
-    margin-left: 2%;
-    text-align: justify;
+  float: left;
+  margin-right: 40%;
+  text-align: justify;
 }
 
 table {
-    float: right;
-    margin-top: -22%;
-    margin-right: 5%;
+  float: right;
+  margin-top: -26%;
+  margin-right: 5%;
+  border-bottom: 1px solid;
 }
 
+
 #more {
-    clear: both;
+  clear: both;
 }
 
 .curiosities {
-    clear: both;
+  clear: both;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+}
+
+img {
+  box-shadow: 0.1em -0.1em 0.2em #a3a8a8;
+  margin-left: 50px;
 }
