@@ -7,3 +7,5 @@ for (let index = 0; index < states.length; index += 1) {
     options.innerText = states[index];
     statesBox.appendChild(options);
 }
+
+const submit = document.querySelector('#submit');
