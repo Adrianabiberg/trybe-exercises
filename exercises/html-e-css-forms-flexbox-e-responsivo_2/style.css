@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 2% 0 10%;
+    background-color: rgb(219, 219, 246);
+    color: rgb(42, 41, 41);
+}
+
+legend {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: serif;
+    text-align: center;
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+label{
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+button {
+    margin-bottom: 5%;
+}
+
+div {
+    font-family: serif;
+    padding: 3px;
+}
