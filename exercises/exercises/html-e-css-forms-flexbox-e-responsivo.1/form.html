@@ -8,7 +8,7 @@
     <title>Form</title>
 </head>
 <body>
-    <form action="" method="get">
+    <form action="" method="get" class="form">
         <fieldset>
             <legend>Dados Pessoais</legend>
             <label for="completeName">Nome Completo:</label>
@@ -24,16 +24,17 @@
             <input type="text" name="adress" id="adress" maxlength="200" required>
             <br>
             <label for="city">Cidade:</label>
-            <input type="text" name="city" id="adress" maxlength="28" required>
+            <input type="text" name="city" id="city" maxlength="28" required>
             <br>
             <label for="states">Estado:</label>
             <select name="state" id="states" required>
             </select>
             <br>
-            <label for="plus">Complemento:
-            <input type="radio" name="plus" id="apt">Apartamento
-            <input type="radio" value="casa" name="plus" id="house">Casa
-            </label>
+            <label for="plus" id="plus1">Complemento:</label>
+            <label for="apt">
+            <input type="radio" name="plus" id="apt" value="Apartamento">Apartamento</label>
+            <label for="house">
+            <input type="radio" value="casa" name="plus" id="house" value="Casa">Casa</label>
         </fieldset>
         <fieldset>
             <legend>Experiência Profissional</legend>
@@ -49,8 +50,11 @@
             <label for="init">Data de Início</label>
             <input type="date" name="dateInit" id="init" required>
         </fieldset>
-        <button type="submit" id="submit">Gravar</button>
+        <button type="submit" id="record">Guardar Informações</button>
+        <button type="reset" class="reset">Limpar</button>
     </form>
+    <div class="pai">
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
