@@ -1,10 +1,11 @@
-let states = ['Acre', 'Alagoas', 'Amapá', 'Amazonas', 'Bahia', 'Ceará', 'Distrito Federal', 'Espírito Santo', 'Goiás',  'Maranhão', 'Mato Grosso',' Mato Grosso do Sul', 'Minas Gerais', 'Pará', 'Paraíba', 'Paraná', 'Pernambuco', 'Piauí', 'Rio de Janeiro', 'Rio Grande do Norte', 'Rio Grande do Sul', 'Rondônia', 'Roraima', 'Santa Catarina', 'São Paulo', 'Sergipe', 'Tocantins'];
+let states = ['Acre', 'Alagoas', 'Amapá', 'Amazonas', 'Bahia', 'Ceará', 'Distrito Federal', 'Espírito Santo', 'Goiás',  'Maranhão', 'Mato Grosso','Mato Grosso do Sul', 'Minas Gerais', 'Pará', 'Paraíba', 'Paraná', 'Pernambuco', 'Piauí', 'Rio de Janeiro', 'Rio Grande do Norte', 'Rio Grande do Sul', 'Rondônia', 'Roraima', 'Santa Catarina', 'São Paulo', 'Sergipe', 'Tocantins'];
 
 const statesBox = document.querySelector('#states');
 
 for (let index = 0; index < states.length; index += 1) {
     let options = document.createElement("option");
     options.innerText = states[index];
+    options.value = options.innerText;
     statesBox.appendChild(options);
 }
 
@@ -28,7 +29,7 @@ let reset = document.querySelector('.reset');
 function stop(event) {
     event.preventDefault();
 
-// Vi o uso no Focus e do return, nesse caso, no Stack Overflow.
+// Vi o uso do Focus e do return, nesse caso, no Stack Overflow.
     if (nome.value === '') {
         alert('Insira seu nome completo.');
         nome.focus();
@@ -80,15 +81,23 @@ function stop(event) {
         datainicio.focus();
         return;
     }
-
-    let divResumo = document.createElement('div');
-    divResumo.textContent = resumo.value;
-    pai[0].appendChild(divResumo);
     
     for (let index = 0; index < form.length; index += 1) {
-    let div = document.createElement('div');
-    div.textContent = form[index].value;
-    pai[0].appendChild(div);
+        let div = document.createElement('div');
+        div.textContent = form[index].value;
+        pai[0].appendChild(div);
+
+        if (index === 4) {
+            let divEstado = document.createElement('div');
+            let statesS = document.getElementById('states');
+            let valor = statesS.options[statesS.selectedIndex].value;
+            divEstado.textContent = valor;
+            pai[0].appendChild(divEstado);
+        } else if (index === 7){
+            let divResumo = document.createElement('div');
+            divResumo.textContent = resumo.value;
+            pai[0].appendChild(divResumo);
+        }
     }
 }
 
