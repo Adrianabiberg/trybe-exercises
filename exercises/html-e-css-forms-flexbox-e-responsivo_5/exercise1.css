@@ -18,7 +18,7 @@ figure {
     margin-bottom: 30px;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 800px) {
     body {
         background-color: rgb(201, 229, 253);
         font-size: x-large;
@@ -33,5 +33,18 @@ figure {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 1290px) {
+    body {
+      background-color: rgb(228, 201, 253);
+      font-size: 27px;
+      margin: 5% 7%;
+      max-width: 90%;
+    }
+
+    h1, h2 {
+        font-size: 40px;
     }
 }
