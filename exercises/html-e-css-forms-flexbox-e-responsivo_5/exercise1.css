@@ -18,3 +18,20 @@ figure {
     margin-bottom: 30px;
 }
 
+@media screen and (min-width: 900px) {
+    body {
+        background-color: rgb(201, 229, 253);
+        font-size: x-large;
+        margin: 5%;
+    }
+
+    h1, h2 {
+        font-size: xx-large;
+    }
+
+    .figuras {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
