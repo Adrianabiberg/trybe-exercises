@@ -3,4 +3,13 @@ html {
   }
   *, *:before, *:after {
     box-sizing: inherit;
+    margin: 0;
   }
+
+header p {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Mountains of Christmas', cursive;
+  text-align: center;
+  padding: 5%;
+}
