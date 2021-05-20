@@ -60,3 +60,23 @@ const fatorial2 = (num) => num === 0 || num < 0 ? 1 : num * fatorial(num-1);
 console.log(fatorial2(3));
 
 // Para o bônus desse exercício usei como referência os sites: https://serprogramador.com.br/artigos/topico/javascript/Como-calcular-a-operacao-matematica-de-fatorial-com-JavaScript#:~:text=O%20fatorial%20de%20um%20n%C3%BAmero,o%20multiplicador%20seja%20equivalente%201.   e   https://gist.github.com/macsousa/dccd2abb2c68c5958846824e975482d3
+
+// Crie uma função que receba uma frase e retorne qual a maior palavra.
+// Exemplo:
+//       longestWord("Antônio foi no banheiro e não sabemos o que aconteceu") // retorna 'aconteceu
+
+// const maiorPalavra = (frase) => {
+//   const contaPalavras = frase.split('');
+//   let contador = 0;
+//   let resultado = [];
+//   for (let indexFrase = 0; indexFrase > contaPalavras.length; indexFrase += 1) {
+//     let palavra = contaPalavras[indexFrase].split();
+//     for (let indexPalavra = 0; indexPalavra > palavra.length; indexPalavra += 1) {
+//       contador += 1;
+//       resultado.push(contador);
+//     }
+//   }
+//   return resultado;
+// }
+
+// console.log(maiorPalavra('Eu nao sei tudo'));
