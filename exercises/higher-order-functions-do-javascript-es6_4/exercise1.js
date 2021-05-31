@@ -10,10 +10,10 @@ const arrays = [
 
 function flatten() {
   const result = arrays.reduce((matrizes, valor) => {
-   valor.map((element) => matrizes.push(element));
-   return matrizes;
+    valor.map((element) => matrizes.push(element));
+    return matrizes;
   });
-   return result;
+  return result;
 }
 
 assert.deepStrictEqual(flatten(), ['1', '2', '3', true, 4, 5, 6]);
